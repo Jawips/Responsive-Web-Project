@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat", sans-serif;
+    background-color: #f4f4f4;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+#button_1 {
+    background: #eb5858;
+    height: 43px;
+    border: none;
+    padding: 0 20px;
+    color: #fff;
+    cursor: pointer;
+}
+
+#button_1:hover {
+    background: rgb(255, 105, 128);
+}
+
+header {
+    background: #35424a;
+    color: #fff;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: #eb5858 3px solid;
+}
+
+header a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+
+header li {
+    float: left;
+    display: inline;
+    list-style: none;
+    padding: 0 20px;
+}
+
+header #branding {
+    float: left;
+}
+
+header #branding h1 {
+    margin: 0;
+    
+}
+
+header nav ul {
+    float: right;
+    margin-top: -50px;
+   
+}
+
+header nav .home a {
+    color: #eb5858;
+    font-weight: bold;
+}
+
+header a:hover {
+    font-weight: bold;
+    color: grey;
+}
+
+#showcase {
+    min-height: 400px;
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("br.jpg") no-repeat 0 -400px;
+    background-size: cover;
+    text-align: center;
+    color: white;
+}
+
+#showcase h1 {
+    margin-top: 100px;
+    font-size: 46px;
+}
+
+#showcase p {
+    font-size: 20px;
+}
+
+#newsletter {
+    padding: 15px;
+    background: #35424a;
+    text-align: center;
+    color: #fff;
+}
+
+#newsletter h1 {
+    float: left;
+}
+
+#newsletter form {
+    float: right;
+    margin-top: 12px;
+}
+
+#newsletter input {
+    height: 33px;
+    width: 250px;
+    padding: 3px;
+}
+
+#boxes {
+    margin-top: 90px;
+}
+
+#boxes .box {
+    float: left;
+    width: 30%;
+    padding: 10px; 
+    text-align: center;
+}
+
+#boxes .box img {
+    width: 90px;
+}
+
+footer {
+    padding: 20px;
+    margin-top: 90px;
+    text-align: center; 
+    color: white;
+    background: #eb5858;
+}
+
+#boxes .container #b_1 {
+    background: linear-gradient(45deg, rgba(248,80,50,1) 0%, rgba(241,111,92,1) 50%, rgba(246,41,12,1) 51%, rgba(240,47,23,1) 71%, rgba(231,56,39,1) 80%);
+    color: white;
+    padding: 10px;
+    border: 4px grey solid;
+    border-radius: 10px;
+}
